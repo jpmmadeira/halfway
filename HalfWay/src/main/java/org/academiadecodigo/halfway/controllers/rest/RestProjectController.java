@@ -10,6 +10,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @CrossOrigin(origins = "*", maxAge = 5000)
 @RestController
 @RequestMapping("/api")
@@ -48,5 +51,17 @@ public class RestProjectController {
 
     }
 
+    @GetMapping("/projects/")
+    public ResponseEntity<List<ProjectDTO>> listProjects(){
+
+        List<ProjectDTO> projectDTOS = new ArrayList<>();
+
+        for(Project project: projectService.list()){
+            projectDTOS.add(projectToProjectDTO.convert(project));
+
+        }
+        return new ResponseEntity<>(projectDTOS, HttpStatus.OK);
+
+    }
 
 }
