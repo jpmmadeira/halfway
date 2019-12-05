@@ -19,7 +19,8 @@ We began this project with a challenge: develop a product inspired by a song: "L
 
 
 
-We divided our worktime into flexible sprints that were mostly 2 hours long.
+We divided our worktime into flexible sprints that were mostly 2 hours long. Depending on the needs at the time we adjusted the length of sprints to account for it.
+Initially we brainstormed the basic concept and established our priorities for the first sprint. As the night went on we did meetings to stay on track and be aware of where everyone (and the project) was.
 
 
 
