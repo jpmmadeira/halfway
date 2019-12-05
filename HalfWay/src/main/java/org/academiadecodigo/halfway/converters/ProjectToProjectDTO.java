@@ -2,7 +2,9 @@ package org.academiadecodigo.halfway.converters;
 
 import org.academiadecodigo.halfway.commands.ProjectDTO;
 import org.academiadecodigo.halfway.persistence.model.Project;
+import org.springframework.stereotype.Component;
 
+@Component
 public class ProjectToProjectDTO extends AbstractConverter<Project, ProjectDTO>{
 
 

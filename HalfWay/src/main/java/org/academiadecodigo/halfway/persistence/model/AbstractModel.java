@@ -11,9 +11,10 @@ public abstract class AbstractModel implements Model{
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    /*
     @Version
     private Integer version;
-
+*/
     @Override
     public Integer getId(){
         return id;

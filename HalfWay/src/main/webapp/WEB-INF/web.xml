@@ -4,7 +4,7 @@
                              http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
 
-    <display-name>TODO API</display-name>
+    <display-name>Half way</display-name>
 
     <!-- remember springmvc front controller-->
     <servlet>
@@ -23,10 +23,5 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
-    <context-param>
-        <param-name>spring.profiles.active</param-name>
-        <!-- define spring profile below -->
-        <param-value>h2</param-value>
-    </context-param>
 
 </web-app>
