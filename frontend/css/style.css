@@ -261,6 +261,7 @@ body {
 #form_submit:hover {
 	box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.25);
 	transition: 400ms ease;
+	background-color: blue;
 }
 
 /* footer */
