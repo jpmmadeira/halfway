@@ -12,6 +12,8 @@ For this particular hackaton , we joined forces between Porto and Fundão, and t
 
 ```
 
+We began this project with a challege: develop a product inspired by a song: "Livin on a Prayer" by Bon Jovi.
+
 ```
 
 ### Development
@@ -28,5 +30,12 @@ For this particular hackaton , we joined forces between Porto and Fundão, and t
 ### Tech && Methodologies 
 
 ```
-```
+	- MYSQL
+	- OBJECT RELATIONAL MAPPING
+		- Java Persistence API;
+		- Id Generation;
+		- Inheritance Mapping;
+	- TOMCAT
+```		- Applicational server;
+		- web.xml;
 

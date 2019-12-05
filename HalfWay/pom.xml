@@ -112,7 +112,7 @@
                 <configuration>
                     <url>http://localhost:8080/manager/text</url>
                     <server>tomcat</server>
-                    <path>/halfway</path>
+                    <path>/halfway/api</path>
                 </configuration>
             </plugin>
         </plugins>
