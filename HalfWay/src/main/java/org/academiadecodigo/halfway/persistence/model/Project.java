@@ -10,6 +10,7 @@ public class Project extends AbstractModel {
    private String projectName;
    private String description;
    private String projectPicture;
+   private String githubUrl;
 
 
     public String getProjectName() {
@@ -36,13 +37,21 @@ public class Project extends AbstractModel {
         this.projectPicture = projectPicture;
     }
 
+    public String getGithubUrl() {
+        return githubUrl;
+    }
+
+    public void setGithubUrl(String githubUrl) {
+        this.githubUrl = githubUrl;
+    }
+
     @Override
     public String toString() {
         return "Project{" +
-                "id='" + this.getId() + '\'' +
                 "projectName='" + projectName + '\'' +
                 ", description='" + description + '\'' +
                 ", projectPicture='" + projectPicture + '\'' +
+                ", githubUrl='" + githubUrl + '\'' +
                 '}';
     }
 }

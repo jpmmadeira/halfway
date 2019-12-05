@@ -6,6 +6,7 @@ CREATE TABLE project(
     projectName VARCHAR(30) NOT NULL,
     description VARCHAR(500) NOT NULL,
     projectPicture VARCHAR (1000) NOT NULL,
+    githubUrl varchar(200) UNIQUE NOT NULL,
     PRIMARY KEY (id)
 );
 

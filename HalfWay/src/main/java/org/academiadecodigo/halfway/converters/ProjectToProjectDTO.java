@@ -14,6 +14,7 @@ public class ProjectToProjectDTO extends AbstractConverter<Project, ProjectDTO>{
         dto.setId(project.getId());
         dto.setProjectName(project.getProjectName());
         dto.setProjectPicture(project.getProjectPicture());
+        dto.setGithubUrl(project.getGithubUrl());
 
         return dto;
     }

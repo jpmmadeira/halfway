@@ -5,6 +5,9 @@ import javax.validation.constraints.NotNull;
 
 public class ProjectDTO {
 
+    @NotNull
+    @NotBlank
+    private String githubUrl;
 
     @NotNull
     @NotBlank
@@ -54,10 +57,19 @@ public class ProjectDTO {
         this.projectPicture = projectPicture;
     }
 
+    public String getGithubUrl() {
+        return githubUrl;
+    }
+
+    public void setGithubUrl(String githubUrl) {
+        this.githubUrl = githubUrl;
+    }
+
     @Override
     public String toString() {
         return "ProjectDTO{" +
-                "id=" + id +
+                "githubUrl='" + githubUrl + '\'' +
+                ", id=" + id +
                 ", projectName='" + projectName + '\'' +
                 ", description='" + description + '\'' +
                 ", projectPicture='" + projectPicture + '\'' +

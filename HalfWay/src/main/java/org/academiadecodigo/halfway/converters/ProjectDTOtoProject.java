@@ -21,6 +21,7 @@ public class ProjectDTOtoProject implements Converter<ProjectDTO, Project> {
         project.setProjectName(projectDTO.getProjectName());
         project.setProjectPicture(projectDTO.getProjectPicture());
         project.setId(projectDTO.getId());
+        project.setGithubUrl(projectDTO.getGithubUrl());
 
         return project;
     }
