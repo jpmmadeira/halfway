@@ -5,12 +5,7 @@ import javax.validation.constraints.NotNull;
 
 public class ProjectDTO {
 
-    @NotNull
-    @NotBlank
-    private String githubUrl;
 
-    @NotNull
-    @NotBlank
     private Integer id;
 
     @NotNull
@@ -24,6 +19,10 @@ public class ProjectDTO {
     @NotNull
     @NotBlank
     private String projectPicture;
+
+    @NotNull
+    @NotBlank
+    private String githubUrl;
 
     public Integer getId() {
         return id;

@@ -2,6 +2,7 @@ package org.academiadecodigo.halfway.converters;
 
 import org.academiadecodigo.halfway.commands.ProjectDTO;
 import org.academiadecodigo.halfway.persistence.model.Project;
+import org.academiadecodigo.halfway.services.ProjectService;
 import org.academiadecodigo.halfway.services.ProjectServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.convert.converter.Converter;
@@ -11,10 +12,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class ProjectDTOtoProject implements Converter<ProjectDTO, Project> {
 
-    private ProjectServiceImpl projectService;
+    private ProjectService projectService;
 
     @Autowired
-    public void setProjectService(ProjectServiceImpl projectService) {
+    public void setProjectService(ProjectService projectService) {
         this.projectService = projectService;
     }
 
