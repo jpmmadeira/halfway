@@ -25,6 +25,55 @@ body {
 	background-color: #270042;
 }
 
+/* Main Styling */
+
+.main_wrapper {
+	float: left;
+	position: relative;
+	min-height: 100vh;
+	min-width: 100vw;
+}
+
+.topmenu {
+	background-color: #9000FD;
+	box-shadow: 0px 18px 31px -13px rgba(0,0,0,0.70);
+	width: 100vw;
+	min-height: 120px;
+  padding: 0 20%;
+	float: left;
+	clear: both;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between; 
+	align-items: center;
+	
+}
+
+.topmenu > nav > ul  {
+	display: flex;
+	flex-direction: row;
+}
+
+.topmenu a {
+	display: block;
+	color: #270042;
+	padding: 0.7em 1em;
+	background-color: #fff;
+}
+
+.topmenu li:first-child >a {
+	border-radius: 20px 0 0 0;
+}
+
+.topmenu li:last-child > a {
+	border-radius: 0 0 20px 0;
+}
+
+.topmenu a:hover { 
+	color: #000;
+	background-color: rgba(255, 255, 255, 0.74);
+}
+
 /* helpful stuff */
 
 .img_center {
@@ -32,12 +81,18 @@ body {
 	margin: 0 auto;
 }
 
-@media only screen and (max-width: 1200px) {
+/* media queries */
 
+@media only screen and (max-width: 1200px) {
+	.topmenu {
+		 padding: 0 10%;
+	} 
 }
 
 @media only screen and (max-width: 992px) {
-
+	.topmenu {
+		 padding: 0 5%;
+	} 
 }
 
 @media only screen and (max-width: 768px) {
