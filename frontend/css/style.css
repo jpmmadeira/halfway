@@ -190,11 +190,11 @@ body {
 }
 
 .link_project > div > img {
-	
+	padding-top: 10px;
 	align-content: center;
 	display: block;
 	margin: 0 auto;
-	height: 250px;
+	height: 150px;
 	width: auto;
 }
 
@@ -208,6 +208,50 @@ body {
 }
 
 
+/* form projects */
+#projects_form {
+	float: left;
+	width: 100%;
+	height: auto;
+	background-color: aqua;
+	padding-left: 20%;
+	padding-right: 20%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#projects_form > h1 {
+	text-align: center;
+	width: 100%;
+}
+
+#projects_form > form {
+	display: flex;
+	background-color: #fff;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px;
+	border-radius: 50px 0 50px 0;
+	padding: 3em 3em;
+}
+#projects_form > div {
+	width: 100%;
+}
+
+#projects_form > form > input {
+	width: 65%;
+}
+
+.txt_form {
+	text-align: left;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
 /* helpful stuff */
 
 .img_center {
@@ -218,15 +262,27 @@ body {
 /* media queries */
 
 @media only screen and (max-width: 1200px) {
+	
 	.topmenu {
 		 padding: 0 10%;
-	} 
+	}
+	
+	.select_projects a {
+	   width: 45%
+	}
+	
 }
 
 @media only screen and (max-width: 992px) {
+	
 	.topmenu {
 		 padding: 0 5%;
-	} 
+	}
+	
+	.select_projects a {
+		width: 90%
+	}
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -234,5 +290,5 @@ body {
 }
 
 @media only screen and (max-width: 576px) {
-
+	
 }
