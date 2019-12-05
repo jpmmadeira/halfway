@@ -40,7 +40,6 @@ public class RestProjectController {
 
         Project project = projectService.get(id);
 
-
         ProjectDTO projectDTO = projectToProjectDTO.convert(project);
 
         if(projectDTO == null){
