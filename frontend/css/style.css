@@ -1,0 +1,294 @@
+/* CSS Reset */
+
+html, body, div, span, blockquote, img, ol, ul, li, tbody, tfoot, thead, tr, th, td, article, aside, footer, header, menu, nav, section, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+body {
+	float: left;
+	position: relative;
+	min-height: 100vh;
+	width: 100%;
+	box-sizing: border-box;
+	background-color: #270042;
+}
+
+/* Main Styling */
+
+.main_wrapper {
+	float: left;
+	position: relative;
+	min-height: 100vh;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.logo {
+
+}
+
+.topmenu {
+	background-color: #9000FD;
+	box-shadow: 0 18px 31px -13px rgba(0,0,0,0.70);
+	width: 100%;
+	min-height: 120px;
+	height: auto;
+	padding: 0 20%;
+	float: left;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+
+}
+
+.topmenu > nav > ul  {
+	display: flex;
+	flex-direction: row;
+}
+
+.topmenu a {
+	display: block;
+	color: #270042;
+	padding: 0.7em 1em;
+	background-color: #fff;
+}
+
+.topmenu li:first-child >a {
+	border-radius: 20px 0 0 0;
+}
+
+.topmenu li:last-child > a {
+	border-radius: 0 0 20px 0;
+}
+
+.topmenu a:hover { 
+	color: #000;
+	background-color: rgba(255, 255, 255, 0.74);
+}
+
+.nav_placeholder {
+	width: 100%;
+	min-height: 120px;
+	float: left;
+}
+
+.test  {
+	float: left;
+	clear: both;
+	position: relative;
+	min-height: 900px;
+	width: 100%;
+	background-color: white;
+}
+
+/* slides */
+.daslider {
+	width: 100%;
+	height: auto;
+	float: left;
+	clear: both;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.daslider h1 {
+	text-align: center;
+	padding: 0 20%;
+	font-style: italic;
+	font-size: 4rem;
+	color: rgba(255, 255, 255, 0.75);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.daslider > div {
+	display: block;
+	width: 100%;
+	height: 70vh;
+}
+
+.daslide1 {
+	background-image: url("../images/carousel/img1.jpg");
+}
+
+.daslide2 {
+	background-image: url("../images/carousel/img2.jpg");
+}
+
+.daslide3 {
+	background-image: url("../images/carousel/img3.jpg");
+}
+
+/* projects */
+
+#projects_list {
+	float: left;
+	width: 100%;
+	height: auto;
+	background: rgb(39,0,66);
+	background: linear-gradient(349deg, rgba(39,0,66,1) 0%, rgba(176,95,109,0.814145726650035) 50%, rgba(144,0,253,1) 100%);
+	
+}
+
+#projects_list h1 {
+	text-align: center;
+}
+
+.select_projects {
+	float: left;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+	align-items: stretch;
+	padding: 1em 1em;
+}
+
+.select_projects a {
+	color: #000;
+	width: 30%;
+	margin: 2em 1em;
+}
+
+.select_projects a:hover {
+	color: #000;
+}
+
+.select_projects div:hover {
+	background-color: rgba(255, 255, 255, 0.90);
+	box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.35);
+}
+
+.link_project > div {
+	border-radius: 50px 0 50px 0;
+	width: 100%;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+
+.link_project > div > img {
+	padding-top: 10px;
+	align-content: center;
+	display: block;
+	margin: 0 auto;
+	height: 150px;
+	width: auto;
+}
+
+.link_project > div > h2 {
+	text-align: center;
+	padding: 0.3rem 1rem;
+}
+
+.link_project > div > p {
+	padding: 1rem 2rem 3rem 2rem;
+}
+
+
+/* form projects */
+#projects_form {
+	float: left;
+	width: 100%;
+	height: auto;
+	background-color: aqua;
+	padding-left: 20%;
+	padding-right: 20%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#projects_form > h1 {
+	text-align: center;
+	width: 100%;
+}
+
+#projects_form > form {
+	display: flex;
+	background-color: #fff;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px;
+	border-radius: 50px 0 50px 0;
+	padding: 3em 3em;
+}
+#projects_form > div {
+	width: 100%;
+}
+
+#projects_form > form > div > input {
+	width: 65%;
+}
+
+#projects_form > form > div > div {
+	text-align: left;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+/* helpful stuff */
+
+.img_center {
+	display: block;
+	margin: 0 auto;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 1200px) {
+	
+	.topmenu {
+		 padding: 0 10%;
+	}
+	
+	.select_projects a {
+	   width: 45%
+	}
+	
+}
+
+@media only screen and (max-width: 992px) {
+	
+	.topmenu {
+		 padding: 0 5%;
+	}
+	
+	.select_projects a {
+		width: 90%
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 576px) {
+	
+}
