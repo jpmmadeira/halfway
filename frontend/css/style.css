@@ -22,11 +22,12 @@ body {
 	position: relative;
 	min-height: 100vh;
 	min-width: 100vw;
+	background-color: #270042;
 }
 
 /* helpful stuff */
 
-img_center {
+.img_center {
 	display: block;
 	margin: 0 auto;
 }
