@@ -242,11 +242,11 @@ body {
 	width: 100%;
 }
 
-#projects_form > form > input {
+#projects_form > form > div > input {
 	width: 65%;
 }
 
-.txt_form {
+#projects_form > form > div > div {
 	text-align: left;
 	padding-left: 1em;
 	padding-right: 1em;
