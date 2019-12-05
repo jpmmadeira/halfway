@@ -1,0 +1,148 @@
+/* font-faces */
+
+@font-face {
+	font-family: 'websymbols';
+	src:
+			url('../fonts/websymbols-regular.woff2') format('woff2'),
+			url('../fonts/websymbols-regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.websymbols {
+	font-family: 'websymbols', sans-serif;
+}
+
+@font-face {
+	font-family: 'roboto';
+	src:
+			url('../fonts/roboto-regular.woff2') format('woff2'),
+			url('../fonts/roboto-regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.roboto {
+	font-family: 'roboto', sans-serif;
+}
+
+@font-face {
+	font-family: 'opensans';
+	src:
+			url('../fonts/opensans-regular.woff2') format('woff2'),
+			url('../fonts/opensans-regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.opensans {
+	font-family: 'opensans', sans-serif;
+}
+
+@font-face {
+	font-family: 'mosk';
+	src:
+			url('../fonts/mosk-regular.woff2') format('woff2'),
+			url('../fonts/mosk-regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.mosk {
+	font-family: 'mosk', sans-serif;
+}
+
+/* basic text stylying */
+
+html {
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'opensans', serif;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 1.75rem;
+}
+
+h4 {
+	font-size: 1.5rem;
+}
+
+h5 {
+	font-size: 1.25rem;
+}
+
+h6 {
+	font-size: 1rem;
+}
+
+p {
+	font-family: 'roboto', sans-serif;
+	font-size: 1rem;
+	line-height: 1.6;
+	text-align: justify;
+	text-rendering: optimizeLegibility;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* custom class's */
+
+.txt_left {
+	text-align: left;
+}
+
+.txt_right {
+	text-align: right;
+}
+
+.txt_center {
+	text-align: center;
+}
+
+.txt_justify {
+	text-align: justify;
+}
+
+.txt_upper {
+	text-transform: uppercase;
+}
+
+.txt_lower {
+	text-transform: lowercase;
+}
+
+.txt_cap {
+	text-transform: capitalize;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 576px) {
+
+}

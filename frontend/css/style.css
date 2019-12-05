@@ -1,0 +1,32 @@
+/* CSS Reset */
+
+html, body, div, span, blockquote, img, ol, ul, li, tbody, tfoot, thead, tr, th, td, article, aside, footer, header, menu, nav, section, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+body {
+	float: left;
+	position: relative;
+	min-height: 100vh;
+	min-width: 100vw;
+}
+
+/* helpful stuff */
+
+img_center {
+	display: block;
+	margin: 0 auto;
+}
