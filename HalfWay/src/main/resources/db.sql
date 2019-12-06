@@ -27,7 +27,7 @@ INSERT INTO project(projectName, description, projectPicture, githubUrl) VALUES(
 
 INSERT INTO project(projectName, description, projectPicture, githubUrl) VALUES(
 'The Mighty Quest for the Freaking Debug', 'The first group project developed at <Academia_de_Código_>.',
-'https://pbs.twimg.com/media/CIR8hb9W8AIVgnf.jpg',
+'https://toucharcade.com/wp-content/uploads/2019/07/mighty-quest-title.jpg',
 'https://gitlab.com/edcm95/mqftd-project');
 
 INSERT INTO project(projectName, description, projectPicture, githubUrl) VALUES(
