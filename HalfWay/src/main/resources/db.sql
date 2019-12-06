@@ -11,17 +11,17 @@ CREATE TABLE project(
 );
 
 INSERT INTO project(projectName, description, projectPicture, githubUrl) VALUES
-('TanksALot', 'A top down game created over the course of a week after just three weeks of beginning our Java journey. Our idea was to make a simple top down tank game where the player would have to run through the stage (the <A/C_> Porto campus) and defeat enemy tanks.',
+('TanksALot', 'A top down game created over the course of a week after just three weeks of beginning our Java journey. Our idea was to make a simple top down tank game where the player would have to run through the stage (the A/C Porto campus) and defeat enemy tanks.',
 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/09ad7d44-3ed5-4da5-ac56-9d235fd09aaa/damkgie-b6b6a740-4da2-4a4f-951d-58b97757f412.png/v1/fill/w_1023,h_469,strp/8_bit_tank_by_graysogoodwn_damkgie-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDY5IiwicGF0aCI6IlwvZlwvMDlhZDdkNDQtM2VkNS00ZGE1LWFjNTYtOWQyMzVmZDA5YWFhXC9kYW1rZ2llLWI2YjZhNzQwLTRkYTItNGE0Zi05NTFkLTU4Yjk3NzU3ZjQxMi5wbmciLCJ3aWR0aCI6Ijw9MTAyMyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.61tgZoxzk6LFV_0nFSiFrF60b8sisIuCTPzjiGNy3Ls',
 'https://github.com/Aevanathema/TanksALot');
 
 INSERT INTO project(projectName, description, projectPicture, githubUrl) VALUES(
-'Front Battle', 'A one-week group project developed after classes in our "spare-time" @ <Academia de Código_>. Our idea was to make a PvP game, where the objective is to kill the other player, catching potions that, randomly, spawn in the arena.',
+'Front Battle', 'A one-week group project developed after classes in our "spare-time" @ <Academia de Código_>. Our idea was to make a PvP game where the objective is to kill the other player, catching potions that randomly spawn in the arena.',
 'https://gitlab.com/Z3UX/front-battle/raw/master/resources/img/menu/menu.png',
 'https://gitlab.com/Z3UX/front-battle');
 
 INSERT INTO project(projectName, description, projectPicture, githubUrl) VALUES(
-'ChopChopBoy', 'This was heavily inspired by the old classic PacMan - but with a special touch, connecting it to our <Academia de Código_> family. The goal is to navigate through the level, collecting all the Java Cups, and dodging the encounters with the ghosts, at the same time.',
+'ChopChopBoy', 'This was heavily inspired by the old classic PacMan - but with a special touch, connecting it to our Academia de Código family. The goal is to navigate through the level, collecting all the Java Cups, and dodging the encounters with the ghosts, at the same time.',
 'https://www4.minijuegosgratis.com/v3/games/thumbnails/223198_1.jpg',
 'https://github.com/Danones/ChopChopBoy');
 
@@ -31,7 +31,7 @@ INSERT INTO project(projectName, description, projectPicture, githubUrl) VALUES(
 'https://gitlab.com/edcm95/mqftd-project');
 
 INSERT INTO project(projectName, description, projectPicture, githubUrl) VALUES(
-'Snake', 'Our idea was to make a version of one of the most popular games of all time and give the people a chance to relieve their past.',
+'Snake', 'A one-week group project developed after classes in our spare-time. Our idea was to make a version of one of the most popular games of all time and give the people a chance to relive their past.',
 'http://rembound.com/files/creating-a-snake-game-tutorial-with-html5/snake.png',
 'https://github.com/ACNormalTeam/Snake-Game');
 
@@ -49,7 +49,7 @@ INSERT INTO project(projectName, description, projectPicture, githubUrl) VALUES(
 );
 
 INSERT INTO project(projectName, description, projectPicture, githubUrl) VALUES(
-'Quizizinho', 'Our challenge was to make a simple terminal game. In this game you have the opportunity to test your culture on the most diversified themes such as sport, cinema and movies, science and so on.It will allow multiplayer via Netcat with players being able to play in separate game instances.',
+'Quizizinho', 'Our challenge was to make a simple terminal game. In this game you have the opportunity to test your culture on the most diversified themes such as sport, cinema and movies, science and so on. It will allow multiplayer via Netcat with players being able to play in separate game instances.',
 'https://img.quizur.com/f/img5ce409067fe485.83822464.jpg?lastEdited=1558448401',
 'https://github.com/Tribelos/QuizGame'
 );

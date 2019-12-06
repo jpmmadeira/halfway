@@ -30,6 +30,7 @@ public class ProjectServiceImpl implements ProjectService {
         return projectDao.saveOrUpdate(project);
     }
 
+    @Transactional
     @Override
     public void delete(Integer id) throws ProjectNotFoundException {
 
