@@ -23,7 +23,7 @@ body {
 	min-height: 100vh;
 	width: 100%;
 	box-sizing: border-box;
-	background-color: #270042;
+	background-color: #f3f3f3;
 }
 
 /* Main Styling */
@@ -38,11 +38,12 @@ body {
 
 .logo {
 
+	letter-spacing: 8px;
 }
 
 .topmenu {
-	background-color: #9000FD;
-	box-shadow: 0 18px 31px -13px rgba(0,0,0,0.70);
+	background-color: #ddd;
+	box-shadow: 0 18px 31px -13px rgba(0,0,0,0.20);
 	width: 100%;
 	min-height: 120px;
 	height: auto;
@@ -67,23 +68,24 @@ body {
 
 .topmenu a {
 	display: block;
-	color: #270042;
+	color: #000;
 	padding: 0.7em 1em;
-	background-color: #fff;
+	/*! background-color: rgba(0,0,0,0.15); */
 }
 
 .topmenu li:first-child >a {
-	border-radius: 20px 0 0 0;
+	border-radius: 5px 0 0 0;
 }
 
 .topmenu li:last-child > a {
-	border-radius: 0 0 20px 0;
+	border-radius: 0 0 4px 0;
 }
 
 .topmenu a:hover { 
 	color: #000;
-	background-color: rgba(255, 255, 255, 0.74);
-	transition: 400ms ease;
+	/*! background-color: rgba(255,255, 255, 0.24); */
+	transition: 500ms ease;
+	text-shadow: 2px 3px 0 rgba(255,255,255, 0.6);
 }
 
 .nav_placeholder {
@@ -92,43 +94,33 @@ body {
 	float: left;
 }
 
-/* slides */
-.daslider {
+/* bg */
+.home {
 	width: 100%;
-	height: auto;
+	min-height: calc(100vh - 12px);
 	float: left;
-	clear: both;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	
 }
 
-.daslider h1 {
-	text-align: center;
-	padding: 0 20%;
-	font-style: italic;
-	font-size: 4rem;
-	color: rgba(255, 255, 255, 0.75);
-	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
-}
-
-.daslider > div {
-	display: block;
+.home > img {
 	width: 100%;
-	height: 70vh;
+	margin: 0 auto;
+	display: block;
 }
 
-.daslide1 {
-	background-image: url("../images/carousel/img1.jpg");
+.home > p {
+	padding: 75px 20%;
+	font-size: 1.5rem;
 }
 
-.daslide2 {
-	background-image: url("../images/carousel/img2.jpg");
+.faqs {
+	width: 100%;
+	min-height: calc(100vh - 12px);
+	float: left;
 }
 
-.daslide3 {
-	background-image: url("../images/carousel/img3.jpg");
+.faqs > p {
+	padding: 20px 20%;
+	font-size: 1.5rem;
 }
 
 /* projects */
@@ -157,6 +149,7 @@ body {
 	align-content: space-around;
 	align-items: stretch;
 	padding: 1em 1em;
+	/*! overflow: hidden; */
 }
 
 .select_projects a {
@@ -171,15 +164,17 @@ body {
 
 .select_projects div:hover {
 	background-color: rgba(255, 255, 255, 0.90);
-	box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.35);
+	box-shadow: 5px 5px 5px 5px rgba(151, 151, 151, 0.15);
 	transition: 400ms ease;
 }
 
 .link_project > div {
-	border-radius: 50px 0 50px 0;
+	border-radius: 4px 0 4px 0;
 	width: 100%;
+	height: 450px;
 	box-sizing: border-box;
 	background-color: #fff;
+	overflow: hidden;
 }
 
 .link_project > div > img {
@@ -197,6 +192,7 @@ body {
 }
 
 .link_project > div > p {
+	text-align: center;
 	padding: 1rem 2rem 3rem 2rem;
 }
 
@@ -206,7 +202,7 @@ body {
 	float: left;
 	width: 100%;
 	height: auto;
-	background-color: aqua;
+	background-color: #f3f3f3;
 	padding-left: 20%;
 	padding-right: 20%;
 	display: flex;
@@ -228,8 +224,8 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	margin: 20px;
-	border-radius: 50px 0 50px 0;
-	padding: 3em 3em;
+	border-radius: 5px 0 5px 0;
+	padding: 2em 2em;
 }
 #projects_form > div {
 	width: 100%;
@@ -237,6 +233,7 @@ body {
 
 #projects_form > form > div > input {
 	width: 100%;
+	padding: 1em;
 }
 
 #projects_form > form > div {
@@ -251,22 +248,31 @@ body {
 }
 
 #form_submit {
-	border-radius: 25px 0 25px 0;
+	border-radius: 2px 0 2px 0;
 	width: 100px !important;
 	padding: 10px 10px;
 	font-weight: bold;
-	background-color: darkorange;
+	background-color: rgba(255, 140, 0, 0.72);
 }
 
 #form_submit:hover {
 	box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.25);
 	transition: 400ms ease;
-	background-color: blue;
+}
+
+.submit_success {
+	padding-left: 20%;
+	padding-right: 20%;
+	text-align: center;
+	padding-top: 48px;
+	color: limegreen;
+	float: left;
+	font-weight: bold;
 }
 
 /* footer */
 footer {
-	background-color: #9000FD;
+	background-color: #ddd;
 	text-align: center;
 	padding: 20px 20px;
 	float: left;

@@ -9,18 +9,12 @@ function clear() {
 function render() {
 		
     console.log('homeview render');
-    let html = `<div class="bxslider daslider">
-    <div class="daslide1">
-        <h1>Stuff1</h1>
-    </div>
-    <div class="daslide2">
-        <h1>Stuff2</h1>
-    </div>
-
-    <div class="daslide3">
-        <h1>Stuff3</h1>
-    </div>
-</div>`;
+    let html = `<div class = "home">
+    <img src="images/bg3.jpg"  alt="banner"/>
+ 
+    <p class="sfmonolight">If the 21st century has made anything clear it's that all too often bright minds are stifled by a lack of means. We're against that.
+    Halfway aims to target that, to give startups and independent groups the chance to be seen by the investors that could give them the chance to change their life and others'.
+    </p></div>`
 
     $('#content').append(html);
 }

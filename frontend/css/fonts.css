@@ -27,6 +27,33 @@
 }
 
 @font-face {
+	font-family: 'sfmono-light';
+	src:
+			url('../fonts/sfmono-light.woff') format('woff2'),
+			url('../fonts/sfmono-light.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.sfmonolight {
+	font-family: 'sfmono-light', sans-serif;
+}
+
+
+@font-face {
+	font-family: 'prime-light-regular';
+	src:
+			url('../fonts/prime_regular.woff2') format('woff2'),
+			url('../fonts/prime_regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.primelight {
+	font-family: 'prime-light-regular', sans-serif;
+}
+
+@font-face {
 	font-family: 'roboto';
 	src:
 			url('../fonts/roboto-regular.woff2') format('woff2'),
@@ -90,6 +117,10 @@ h3 {
 
 h4 {
 	font-size: 1.5rem;
+	font-family: 'roboto', sans-serif;
+	line-height: 1.6;
+	text-align: justify;
+	text-rendering: optimizeLegibility;
 }
 
 h5 {

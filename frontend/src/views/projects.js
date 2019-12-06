@@ -1,5 +1,4 @@
 function start() {
-    $('#content').append('<p>Project List</p>');
 }
 
 function clear() {
@@ -9,7 +8,6 @@ function clear() {
 function render(projects) {
 
     let html = projects.reduce((acc, project) => {
-        console.log(project);
         acc += `<a class="link_project" target="_blank" href=${project.github}><div>`
         acc += `<img src=${project.picture} />`;
         acc += `<h2>${project.name}</h2>`;
@@ -21,6 +19,7 @@ function render(projects) {
 
     $('#content').append($(html));
 }
+
 
 export default {
     start,
