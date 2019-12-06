@@ -23,51 +23,40 @@
 		<script src="js/jquery.bxslider.min.js"></script>
 		<script src="js/jquery.easing.1.3.js"></script>
 		<script src="js/jquery.fitvids.js"></script>
-		<script src="js/main.js"></script>
+		<script type="module" src="src/index.js"></script>
 		<script>
-			$(document).ready(function() {
-				$('.bxslider').bxSlider({
-					mode: 'horizontal',
-					responsive: true,
-					pager: false,
-					controls: true,
-					keyboardEnabled: true,
-					infiniteLoop: true,
-					auto: true,
-					speed: 800
-					
-				});
-			});
-		</script>
+                $('.bxslider').bxSlider({
+                    mode: 'horizontal',
+                    responsive: true,
+                    pager: false,
+                    controls: true,
+                    keyboardEnabled: true,
+                    infiniteLoop: true,
+                    auto: true,
+                    speed: 800
+                
+            });
+        </script>
 	</head>
 
 	<body>
 	
+		<!-- ID to make front page appear???????? -->
 		<div class="main_wrapper">
 			<div class="topmenu">
 				<h1 class="virgo logo">HalfWay</h1>
 				<nav>
 					<ul class="roboto">
-						<li><a href="#">Home</a></li>
-						<li><a href="projects.html">Check Some Ideas</a></li>
-						<li><a href="form.html">Submit a Project</a></li>
-						<li><a href="#">FAQs</a></li>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#projects">Check Some Ideas</a></li>
+						<li><a href="#form">Submit a Project</a></li>
+						<li><a href="#faqs">FAQs</a></li>
 					</ul>
 				</nav>
 			</div>
 			<div class="nav_placeholder"></div>
-			<div class="bxslider daslider">
-				<div class="daslide1">
-					<h1>Stuff1</h1>
+				<div id="content">
 				</div>
-				<div class="daslide2">
-					<h1>Stuff2</h1>
-				</div>
-			
-				<div class="daslide3">
-					<h1>Stuff3</h1>
-				</div>
-				
 			</div>
 		</div>
 		<footer class="roboto">
