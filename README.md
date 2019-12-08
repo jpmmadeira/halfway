@@ -60,7 +60,11 @@ Open the index.html in any browser and you should be good to run it.
 ### Credits
 
 [Diogo Sousa](https://github.com/Danones);
+
 [João Madeira](https://github.com/hattomhub);
+
 [Paulo Resende](https://github.com/Jophyell);
+
 [Orlando Vieira](https://github.com/landovieira);
+
 [David Monteiro](https://github.com/Aevanathema);
