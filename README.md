@@ -22,12 +22,6 @@ In my team, we were only able to met everyone on the day of the challenge.
 From moment zero, each developer did a brief 5 minute presentation about himself, declaring his qualities and difficulties and from that moment we started researching about the song/theme. 
 We also implemented an AGILE mindset and used a scrum strategy to work our challenge through . 
 
-### My Role 
-
-I was responsible to organize the team throughout the development of the project.  I have allocated each developer a task and made sure the person was competent to do it in time of the next sprint since time was very important. 
-I also contributed mostly in developing the backend and all the business logic, peer programming for the frontend , and created the presentation of our project. 
-We managed to accomplish our minimum viable product within time and had the chance to develop even further of what we establish in the beginning. 
-
 ### Tech && Methodologies 
 
 ```
