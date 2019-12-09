@@ -10,7 +10,7 @@ After the 24 hours period we had to present this ideia to our Master Coders, Cod
 
 ### The Idea 
 
-The Hackathin started at 10 am with a song - "Livin' on a Prayer" , by  Bon Jovi. We quickly knew that this was a very powerful theme.
+The Hackathon started at 10 am with a song - "Livin' on a Prayer" , by  Bon Jovi. We quickly knew that this was a very powerful theme.
 We researched about the author, the origin of the song and lyrics, and the impact in society/community. Rapidly we identified our stories with the main one from the song.
 Which described a couple that had many struggles throughout their lives but as long as they had a purpose, a goal , and they worked together they would eventually achieve their goals.
 We quickly related ourselves, developers to this situation, basically, we need to work as teams, establish our goals and fight our obstacles together so in the end we achieve what we want. 
