@@ -55,7 +55,7 @@ Open the index.html in any browser and you should be good to run it.
 
 [Diogo Sousa](https://github.com/Danones);
 
-[João Madeira](https://github.com/hattomhub);
+[João Madeira](https://github.com/jpmmadeira);
 
 [Paulo Resende](https://github.com/Jophyell);
 
